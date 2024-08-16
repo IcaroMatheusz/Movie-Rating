@@ -33,6 +33,8 @@ Certifique-se de ter o Node.js e o npm (ou Yarn) instalados em seu ambiente de d
 
 2. Crie um .env na pasta raíz do projeto e coloque "NEXT_PUBLIC_OMDB_API_KEY = SUA_KEY_AQUI"
 
-3. Depois abra o terminal, navegue até a pasta do projeto e digite "npm run dev"
+3. Depois abra o terminal, navegue até a pasta do projeto e digite "npm install"
 
-4. Após isso, vá até o navegador e coloque localhost:3000
+4. Após isso, digite "npm run dev"
+
+5. Para finalizar, abra o navegador e coloque localhost:3000
