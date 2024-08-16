@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Movie Rating App
 
-## Getting Started
+Um aplicativo de frontend desenvolvido com Next.js para exibir detalhes de filmes usando a API OMDB.
 
-First, run the development server:
+## Descrição
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto é um aplicativo web que permite aos usuários buscar e visualizar detalhes sobre filmes. Utiliza o Next.js para a construção do frontend e a API OMDB para recuperar informações sobre filmes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: Framework React para construção de aplicações web.
+- **React**: Biblioteca para construção de interfaces de usuário.
+- **OMDB API**: API para obter informações sobre filmes.
+- **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Funcionalidades
 
-## Learn More
+- **Busca de Filmes**: Permite aos usuários pesquisar filmes por título.
+- **Detalhes do Filme**: Exibe informações detalhadas sobre o filme selecionado, incluindo título, ano, diretor, atores, gênero, e muito mais.
+- **Navegação**: Navegue entre a lista de filmes e os detalhes de um filme específico.
 
-To learn more about Next.js, take a look at the following resources:
+## Pré-requisitos
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Certifique-se de ter o Node.js e o npm (ou Yarn) instalados em seu ambiente de desenvolvimento.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Instalação
 
-## Deploy on Vercel
+1. Clone o repositório: git clone https://github.com/icaromatheusz/Movie-Rating.git
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Execução
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Pegue uma KEY do OMDb no site https://www.omdbapi.com/apikey.aspx
+
+2. Crie um .env na pasta raíz do projeto e coloque "NEXT_PUBLIC_OMDB_API_KEY = SUA_KEY_AQUI"
+
+3. Depois abra o terminal, navegue até a pasta do projeto e digite "npm run dev"
+
+4. Após isso, vá até o navegador e coloque localhost:3000
